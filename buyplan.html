@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Buy Plan</title>
+    <style>
+        body{
+            background-color: #0F0617;
+            font-family: 'Noto Sans Bold', sans-serif;
+        }
+        #navbar{
+            height:100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 5%;
+        }
+        .login{
+            padding: 10px;
+                              height: 40px;
+                              background-color: #0F0617;
+                              border: white 1px solid;
+                              border-radius: 5px;
+                              color: white;
+                              font-weight: bold;
+                              font-size: 18px;
+                              box-sizing: border-box;
+                              margin-right: 5%;
+                              padding-bottom: 10px;
+        }
+        .login:hover{
+            cursor: pointer;
+        }
+        .cur:hover{
+            cursor: pointer;
+        }
+
+        #box{
+            height: 500px;
+            width: 60%;
+            /* border: 1px solid white; */
+            margin: auto;
+            border-radius: 10px;
+            
+        }
+        .box1{
+            height: 10%;
+            width: 100%;
+            /* border:1px solid red; */
+        }
+        .box1 h4{
+            text-align: center;
+            color: white;
+        }
+        .box2{
+            height: 10%;
+            width: 100%;
+            /* border:1px solid red; */
+            /* margin-left: 10px; */
+            /* box-sizing: border-box; */
+            line-height: 3px;
+            display: flex;
+           justify-content: space-between;
+        }
+        .box2 h2{
+            /* text-align: center; */
+            color: white;
+            /* margin-bottom: 10px; */
+        }
+        .box2 p{
+            color: white;
+        }
+
+      .box2  .prebtn{
+  /* position: absolute; */
+    background: 1px solid white;
+    /* top: 8%; */
+    /* left: 35px; */
+    /* font-size: 20px; */
+    color: rgb(238, 25, 96);
+    border-radius: 50%;
+}
+        .box3{
+            display: flex;
+            border: 1px solid black;
+            height:80%;
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 23px;
+
+        }
+        .box3-1{
+            height: 100%;
+            width: 50%;
+         
+            /* border: 1px solid orange; */
+
+            /* border-radius: 10px; */
+            background-color: #F5F5F5;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .box3-1 h2~h4{
+            color:black;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+        .box3-1 h2{
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        .box3-2{
+            height: 100%;
+            width: 50%;
+            /* border: 1px solid orange; */
+            /* border-radius: 10px; */
+            background-color: #ffffff;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .box3-a{
+            height: 35%;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid rgb(255, 234, 255); */
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+        
+        .box3-b{
+            height: 25%;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid magenta; */
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        .box3-c{
+            height: 10%;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid magenta; */
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .box3-d{
+            height: 10%;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid magenta; */
+            border-radius: 10px;
+            margin-top: 10px;
+            background-color:#8230C6;
+            text-align: center;
+            padding: 10px 10px 15px 10px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .box3-aa{
+            height: 80%;
+            width: 100%;
+            border: 1px dashed rgb(236, 175, 236);
+            background-color:  rgb(255, 225, 255);
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
+            
+        }
+        .box3-bb{
+            background-color: rgb(241, 237, 237);
+            height: 20%;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+        }
+        .box3-aa .offer {
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid yellowgreen; */
+        }
+        .offer >div{
+            padding: 5px;
+            border:1px solid rgb(236, 0, 130);
+            margin-left:5px;
+            margin-right: 5px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+        .box3-aa .plan{
+            display:flex;
+            justify-content: space-between;
+            /* border: 1px solid brown; */
+            height: 30px;
+           
+            
+        }
+        .plan >div{
+            font-weight: bold;
+            margin-left: 5px;
+            margin-right: 15px;
+            margin-top:4px;
+        }
+        .box3-a .box3-aa > p{
+         margin-left: 5px;
+         /* border: 1px solid black; */
+         margin-top: 2px;
+
+        }
+
+        .box3-bc{
+            height: 75%;
+            width: 100%;
+            /* border: 1px dashed violet; */
+            display: flex;
+            justify-content: space-between;
+            font-size: 20px;
+            font-weight: bold;
+            border: 1px dashed rgb(236, 175, 236);
+            /* background-color:  rgb(255, 225, 255); */
+             border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .box3-cc{
+            height: 25%;
+            background-color: rgb(241, 237, 237);
+            /* height: 20%; */
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            
+
+        }
+        .box3-bc >div{
+            margin-left: 5px;
+            margin-right:10px;
+            margin-top: 15px;
+        }
+
+        #contact{
+            display: flex;
+            height: 30px;
+            width: 100%;
+            justify-content: space-between;
+            color: rgba(255, 255, 255, 0.815);
+            font-size: 15px;
+        }
+        #contact>div{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .sub{
+            color: white;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div onclick="home()" class="cur"><img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.26"/></div>
+        <div  onclick="navfooter()" class="login">Login</div>
+
+    </div>
+
+    <div id =box>
+  <div class ="box1">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h4>Anyime Big Entertainment</h4>
+          </div>
+          <div class="carousel-item">
+            <h4 class="sub">Eduaurra E-learning Access</h>
+          </div>
+          <div class="carousel-item">
+            <h4 class="sub">Kids Content and Parental Control</h>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="box2">
+      <div>
+          <p>Step 1 of 3</p>
+        <h4 class="sub">Subscribe To Premium</h4>
+    </div>
+    <div class="prebtn"><i class="fa-solid fa-crown" style="color:wheat"></i></div>
+   
+      
+  </div>
+  <div class ="box3">
+      <div class="box3-1">
+          <h2> Watch Ad-Free with Premium!</h2>
+          <h4>2800+ Blockbuster Movies     ?</h4>
+          <h4>
+            150+ Web Series     ?</h4>
+          <h4>Live TV, Before TV     ?</h4>
+          <h4>
+            Offer: Extra 10% OFF on Cards     ?</h4>
+          <h4>
+            Watch on Mobile, TV, Laptop     ?</h4>
+            <h4>
+                Complete learning module for students     ?</h4>
+      </div>
+      <div class="box3-2">
+          <div class="box3-a">
+              <div class="box3-aa">
+                  <div class="offer">
+                      <div style="background-color: #8230C6;color: white;">LIMITED PERIOD OFFER</div>
+                      <div style="color:rgb(236, 0, 138)">SAVE 40%</div>
+                  </div>
+                  <div class="plan">
+                      <div>12 Monts Plan</div>
+                  <div>$599</div>
+                </div>
+                <p>Effective Price 50/Month</p>
+                
+                </div>
+              <div class="box3-bb">
+                  Watch on 3 Screnns on the same time
+              </div>
+          </div>
+          <div class="box3-b">
+              <div class="box3-bc">
+                  <div>3 Months Plan</div>
+                  <div>$399</div>
+              </div>
+              <div class="box3-cc">Watch On 2 Screens at the same time</div>
+          </div>
+          <div class="box3-c"><p>Have a Code?</p></div>
+          <div class="box3-d"><a href="next.html" target="" style="text-decoration: none; color: white">Continue with $599</a></div>
+      </div>
+  </div>
+    </div>
+    
+    
+    
+    <hr>
+   <div id="contact">
+    <div>
+        Copyright © 2022 Zee Entertainment Enterprises Ltd. All rights reserved
+    </div>
+    <div>
+        <div>About Us  |</div>
+        <div>Help Center  |</div>
+        <div>Privacy Policy  |</div>
+        <div>Terms of Use  </div>
+    </div>
+   </div>
+    
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+   <script>
+              function home(){
+                    window.location.href="shows.html"
+          }
+
+          function navfooter(){
+            window.location.href="navfooter.html"
+          }
+   </script>      

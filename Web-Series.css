@@ -1,0 +1,650 @@
+#row1{
+    height:70%;
+    width: 80%;
+    margin:auto;
+   
+    /* border: 1px solid white; */
+  }
+
+  .row2{
+    height: 300px;
+    width: 95%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-left: 3%;
+    display: grid ;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows:repeat(1,300px);
+    /* border: 1px solid red; */
+    gap:10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    transition: 1s;
+    
+  }
+  /* .row2 .logo:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    border: 5px solid white;
+  }
+
+  .row2 .logo:hover .rowwatch{
+    transform: scale(1.2);
+    z-index: 2;
+    border: 5px solid white;
+  } */
+
+  /* .row2 .box .logo img{
+    max-width:100%;
+    transition: transform 2s;
+  }
+
+  .row2 .box:hover .logo img{
+    transform: scale (1.2);
+  }
+  
+  .row2 .box .rowwatch{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right:10px;
+    transform: scaleY(0);
+    transition: transform .55;
+  }
+
+  .row2 .box:hover .rowwatch{
+    transform: scaleY(1);
+  }
+  
+  .row2 .box .rowwatch .showname{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+  } */
+
+
+
+  .row3{
+    height: 300px;
+    width: 95%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-left: 3%;
+
+    display: grid ;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: repeat(1,300px);
+    /* border: 1px solid red; */
+    gap:10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+   
+  }
+
+  .row4{
+    height: 300px;
+    width: 95%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-left: 3%;
+
+    display: grid ;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: repeat(1,300px);
+    /* border: 1px solid red; */
+    gap:10px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+
+  .row5{
+    height: 300px;
+    width: 95%;
+    margin-left: 3%;
+    
+    margin: auto;
+    display: grid ;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: repeat(1,300px);
+  
+    gap:10px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+
+  .row6{
+    height: 200px;
+    width: 95%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-left: 3%;
+
+    display: grid ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,150px);
+    /* border: 1px solid red; */
+    gap:10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+   
+  }
+  .row7{
+    height: 200px;
+    width: 95%;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-left: 3%;
+
+    display: grid ;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1,150px);
+    /* border: 1px solid red; */
+    gap:10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+   
+  }
+
+  h3{
+      color: white;
+      margin-top: 50px;
+      margin-left: 3%;
+      font-family: NotoSansMedium, sans-serif;
+      
+  }
+
+  .box{
+    /* margin-left:15%; */
+    height: 120%;
+    width: 98%;
+    
+    
+  }
+  .logo{
+      border-radius: 5px;
+    position: relative;
+   height: 100%;
+   width: 100%;
+  }
+  img{
+    width:100%;
+    height:100%;
+  }
+    
+  .carousel-inner .carousel-item{
+    width:80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  .row{
+    margin-bottom: 5%; 
+  }
+
+  .carousel-control-prev .carousel-control-prev-icon{
+    font-weight: bold;
+  }
+  
+
+h2{
+    position: absolute;
+    background: none;
+    top: 65%;
+    left: 40px;
+    font-size: 35px;
+    color: white;
+}
+
+.carousel-inner .carousel-item >div{
+  position: absolute;
+    background: none;
+    top: 80%;
+    left: 40px;
+    /* border: 1px white solid; */
+    /* background-color: none; */
+display: flex;
+gap: 10px;
+    font-size: 25px;
+    color: white;
+
+}
+
+.watchbtn{
+  color:white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding:5px 15px 5px 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+ 
+}
+
+.watchbtn:hover{
+  color:black;
+  background-color: white;
+}
+
+.planbtn{
+  color:white;
+  background-color: #8230c6;
+  
+  /* border: 1px solid white; */
+  border-radius: 8px;
+  padding:5px 15px 5px 15px;
+  box-sizing: border-box;
+  font-size: 20px;
+ 
+}
+
+.planbtn:hover{
+  background-color: #6927a0;
+}
+
+.prebtn{
+  position: absolute;
+    background: 1px solid white;
+    top: 8%;
+    left: 35px;
+    font-size: 20px;
+    color: rgb(238, 25, 96);
+    border-radius: 50%;
+}
+ 
+ /* .icon{
+  padding-right: 5px;
+} */
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 20px; */
+}
+.more{
+  color: #994ada;
+  font-size: 15px;
+  margin-right: 50px;
+}
+.box:hover{
+  background-color: white;
+  z-index: 1;
+ transform: scale(1.2);
+ border: 6px solid white;
+ border-radius: 3%;
+ transition: 1s;
+ transition-duration: .5s;
+ width: 100%;
+ height: 120%;
+}
+
+ .rowwatch{
+  width: auto;
+  height: 25%;
+  transform: translateY(-100%);
+  border-radius: 3px;
+  padding-left: 3%;
+  opacity: 0;
+  border: 2px solid white;
+  color: white;
+}
+.box:hover >.rowwatch{
+  background-color: white;
+  transition: .5s;
+  opacity: 1;
+}  
+.watchBtn{
+  border: 1px solid gray;
+  width: 45%;
+  color: gray;
+  font-size: 80%;
+  margin-top: 15%;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  
+   font-weight: bold; 
+ } 
+.watchBtn:hover{
+
+  background-color: #8230c6;
+  font-weight: bold;
+   transition: .3s;
+  color: white;
+}
+.shownames{
+  color: gray;
+  margin-top: 3%;
+  margin-bottom: -10%;
+  font-size: 60%;
+  font-weight: bold;
+} 
+
+.posbtn{
+  display: flex;
+
+}
+
+.sharebtn{
+  border:none;
+  width: 45%;
+  color: rgb(161, 151, 151);
+  font-size: 80%;
+  margin-top: 15%;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  
+   font-weight: bold; 
+ } 
+
+ .sharebtn:hover{
+   color:#8230c6
+ }
+
+
+ .text{
+   font-size: 20px;
+   color: white;
+   margin-top: 10px;
+ }
+
+ 
+.row6 .rowwatch{
+  width: 100%;
+  height: 45%;
+  transform: translateY(-160%);
+  border-radius: 3px;
+  padding-left: 3%;
+  opacity: 0;
+  border: 3px solid white;
+  color: white;
+}
+
+.row6 .watchBtn{
+  border: 1px solid gray;
+  width: 40%;
+  color: gray;
+  font-size: 80%;
+  margin-top: 15px;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  
+   font-weight: bold; 
+ } 
+
+ .row6 .sharebtn{
+  border:none;
+  width: 45%;
+  color: rgb(161, 151, 151);
+  font-size: 80%;
+  margin-top: 15px;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  
+   font-weight: bold; 
+ } 
+
+ .row7 .rowwatch{
+  width: 100%;
+  height: 45%;
+  transform: translateY(-160%);
+  border-radius: 3px;
+  padding-left: 3%;
+  opacity: 0;
+  border: 3px solid white;
+  color: white;
+}
+
+.row7 .watchBtn{
+  border: 1px solid gray;
+  width: 40%;
+  color: gray;
+  font-size: 80%;
+  margin-top: 15px;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  
+   font-weight: bold; 
+ } 
+
+ .row7 .sharebtn{
+  border:none;
+  width: 45%;
+  color: rgb(161, 151, 151);
+  font-size: 80%;
+  margin-top: 15px;
+  padding: 3px 6px 3px 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  
+   font-weight: bold; 
+ } 
+
+ /* lower part  */
+
+ #container{
+   height: 200px;
+   width: 60%;
+   /* border: 1px solid white; */
+   margin-left: 10%;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: auto;
+   gap: 5px;
+ }
+
+ #container > div{
+   /* display: grid;
+   
+   grid-template-columns: repeat(4,1fr);
+   grid-template-rows: auto; */
+   /* border: 1px solid red; */
+   height: 100%;
+   font-size:10px;
+   padding: 20px;
+   color: white;
+   margin-bottom: 10px;
+ }
+
+ #container > div >p:hover{
+   color: blue;
+ }
+
+
+ /* a{
+   text-decoration: none;
+   color: none;
+ } */
+
+
+ #footer{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0f0617;
+  margin: auto;
+}
+  /* About Us page Start */
+
+#about_us{
+  
+  width: 88%;
+  height: 440px;
+  margin: auto;
+}
+#heading{
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+#para1{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+#para2{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+#para3{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+#Zee_five{
+  color: rgba(137, 43, 226, 0.575);
+  text-decoration: none;
+  
+}
+hr{
+  width: 110%;
+  margin-left: -2%;
+  border-top: 0px ;
+}
+     /* About Us page End */
+
+
+     /* Footer page Start */
+
+.cont1{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+}
+.content1{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+  height: 70px;
+}
+.content1>p{
+  color: white;
+  font-weight: bold;
+}
+
+.content2{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 70px;
+}
+.content2>p{
+  color: white;
+  font-weight: bold;
+}
+
+.img1{
+  border: 1px solid black;
+  width: 123px;
+  height: 37px;
+  margin-left: -10%;
+}
+.img2{
+  border: 1px solid black;
+  width: 113px;
+  height: 37px;
+  margin-left: -10%;
+}
+.innimg{
+  width: 100%;
+  height: 37px;
+}
+.btn1{
+  width: 42px;
+  height: 42px;
+  margin-left: 5%;
+  border-radius: 50%;
+  background-color: #0f0617;
+  
+}
+.fa-brands{
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+}
+
+
+.cont2{
+
+  display: flex;
+  margin-top: 20px;
+
+}
+.ahpt1{
+  margin-left: 6%;
+  color: white;
+}
+.ahpt2{
+  margin-left: 3%;
+  color: white;
+}
+.seprator{
+  color: white;
+  margin-left: 2%;
+}
+.cont3{
+  display: flex;
+  margin-left: 6%;
+  margin-top: 2%;
+
+
+}
+.cont3 div{
+  
+  width: 18%;
+  height: 300px;
+}
+.box3{
+  margin-left: 2%;
+}
+.p_head{
+color: white;
+font-weight: bold;
+}
+.p{
+  color: rgb(143, 136, 136);
+  font-size: 15px;   
+}
+.copy_right{
+  color: rgb(143, 136, 136);
+  width: 45%;
+  font-size:15px ;
+  margin-left: 6%;
+}
+
+/* Button hovering effect */
+.face:hover{
+  cursor: pointer;
+  background-color:  rgba(53, 53, 243, 0.842);
+}
+.insta:hover{
+  cursor: pointer;
+  background-color: rgb(209, 65, 113);
+}
+.twitter:hover{
+  cursor: pointer;
+  background-color: aqua;
+}
+.youtube:hover{
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+  /* Footer page End */
