@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buyPlan2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <style>
+
+body{
+            background-color: #0F0617;
+            font-family: 'Noto Sans Bold', sans-serif;
+        }
+        #navbar{
+            height:100px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+            margin-left: 5%;
+        }
+        .login{
+            padding: 10px;
+                              height: 40px;
+                              background-color: #0F0617;
+                              border: white 1px solid;
+                              border-radius: 5px;
+                              color: white;
+                              font-weight: bold;
+                              font-size: 18px;
+                              box-sizing: border-box;
+                              margin-right: 5%;
+                              padding-bottom: 10px;
+        }
+        .login:hover{
+            cursor: pointer;
+        }
+        .cur:hover{
+            cursor: pointer;
+        }
+
+        #box{
+            height: 500px;
+            width: 32%;
+            /* border: 1px solid white; */
+            margin: auto;
+            border-radius: 10px;
+            /* border: 1px solid white; */
+        }
+
+        .box1{
+            height: 15%;
+            width: 100%;
+            /* border:1px solid red; */
+            /* margin-left: 10px; */
+            /* box-sizing: border-box; */
+            line-height: 8px;
+            display: flex;
+           justify-content: space-between;
+        }
+        .box1 h2{
+            /* text-align: center; */
+            color: white;
+            /* margin-bottom: 10px; */
+        }
+        .box1 p{
+            color: white;
+        }
+
+      .box1  .prebtn{
+  /* position: absolute; */
+    /* background: 1px solid white; */
+    /* top: 8%; */
+    /* left: 35px; */
+    /* font-size: 20px; */
+    color: rgb(238, 25, 96);
+    border-radius: 50%;
+}
+
+.box2{
+    height: 85%;
+    width: 100%;
+   margin-top: -30px;
+    background-color: white;
+    border-radius: 10px;
+
+
+}
+.box2 p{
+    font-size: 30px;
+    color: black;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.box2-a{
+    border: 1px solid #0F0617;
+    padding: 10px;
+    margin-left: 15%;
+    border-radius: 5px;
+    height: 20px;
+    width: 60%;
+}
+
+.box3-b{
+            height: 10%;
+            width: 80%;
+            margin: auto;
+            /* border: 1px solid magenta; */
+            border-radius: 10px;
+            margin-top: 30px;
+            background-color:#8230C6;
+            text-align: center;
+            padding: 10px 10px 15px 10px;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        .media{
+            display: flex;
+            height: 80px;
+            width: 60%;
+            /* border: 1px solid red; */
+            margin: auto;
+            justify-content: space-between;
+        }
+
+
+        #contact{
+            display: flex;
+            height: 30px;
+            width: 100%;
+            justify-content: space-between;
+            color: rgba(255, 255, 255, 0.808);
+            font-size: 15px;
+        }
+        #contact>div{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div onclick="home()" class="cur"><img src="https://www.zee5.com/images/ZEE5_logo.svg?ver=2.51.26"/></div>
+        <div  onclick="navfooter()" class="login">Login</div>
+
+    </div>
+   <div id ="box">
+
+    <div class="box1">
+        <div>
+            <p>Step 2 of 3</p>
+          <h2>Account Info</h2>
+      </div>
+      <div class="prebtn"><i class="fa-solid fa-crown" style="color:wheat"></i></div>
+     
+        
+    </div>
+    <div class="box2">
+        <div><p>Continue with Email or Mobile</p></div>
+ <div ><input class="box2-a" type="text" placeholder="enter mobile or email"></div>
+ <div class="box3-b"> Continue</div>
+   
+    <div style="color: black; text-align: center;margin-top: 20px; font-size: 25px;">----OR----</div>
+    <div class="media">
+        <div>
+            <img src="https://www.zee5.com/images/apple-social-icon-circle.svg?ver=2.51.26" alt="i">
+        </div>
+        <div>
+            <img src="https://www.zee5.com/images/google-social-icon-circle.svg?ver=2.51.26" alt="">
+        </div>
+        <div>
+            <img style="height:30px;width:30px;margin-top:10px" src="https://www.zee5.com/images/fb-social-icon-circle.svg?ver=2.51.26" alt="">
+        </div>
+        <div>
+            <img style="height:30px;width:30px;margin-top: 10px;"src="https://www.zee5.com/images/twitter-social-icon.svg?ver=2.51.26" alt="">
+        </div>
+    </div>
+    <div style="font-size:15px; color:grey;text-align: center; padding:10px;width:80%;margin-left: 20px;">By Proceeding YOu agree to our terms and conditions & privacy policy</div>
+ 
+    </div>
+   </div>
+
+
+   <hr>
+
+
+   <div id="contact">
+    <div>
+        Copyright © 2022 Zee Entertainment Enterprises Ltd. All rights reserved
+    </div>
+    <div>
+        <div>About Us  |</div>
+        <div>Help Center  |</div>
+        <div>Privacy Policy  |</div>
+        <div>Terms of Use  </div>
+    </div>
+   </div>
+</body>
+</html>
+<script>
+          function home(){
+                window.location.href="shows.html"
+      }
+
+      function navfooter(){
+            window.location.href="navfooter.html"
+          }
+
+</script>    
