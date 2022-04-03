@@ -1,0 +1,415 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+*{
+  background-color: #0f0617;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+    
+.mySlides fade>.but1{
+top: 93%;
+margin-left: 15%;
+width: 8%;
+height: 7%;
+border: 1px solid white;
+position: absolute;
+font-weight: bold;
+color: white;
+
+}
+
+.but1:hover{
+background-color:red;
+color: white;
+border: 1px solid black;
+cursor: pointer;
+
+}
+
+.but2{
+top: 86%;
+position: absolute;
+margin-left: 6%;
+background-color: transparent;
+border: 1px solid white;
+color: white;
+padding-left: 10px;
+height: 30px;
+width: 10%;
+text-align: center;
+padding-top: 5px;
+border-radius: 5px;
+
+}
+
+.but2:hover{
+  top: 86%;
+  position: absolute;
+  margin-left: 6%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  padding-left: 10px;
+  height: 30px;
+  width: 10%;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 5px;
+  
+  }
+
+
+.tag2{
+top: 62%;
+position: absolute;
+margin-left: 70px;
+color: white;
+margin-top: 58px;
+background-color: transparent;
+
+
+} 
+
+.but1{
+top: 65%;
+position: absolute;
+width: 6%;
+margin-left: 6%;
+border: 1px solid black;
+background-color: white;
+border-radius: 35px;
+text-align: center;
+font-size: small;
+
+}
+.img1{
+  height: 500px;
+  width: 60%;
+}
+
+
+/*box2***********/
+
+
+.parent2{
+  /* border: 1px solid red;*/
+  display: grid;
+   grid-template-rows: repeat(1,240px);
+   grid-template-columns: repeat(5,1fr);
+   gap: 10px;
+   background-color:#0f0617 ;
+  
+}
+.row2{
+   /*border: 1px solid limegreen;*/
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   background-color:#0f0617 ;
+   
+}
+img{
+   width: 100%;
+   height: 150px;
+   
+
+}
+.tag1{
+   margin-top: 3%;
+   margin-left: 20px;
+   color: white;
+}
+.colum1{
+  display: flex;
+  margin-left: 5px;
+}
+.but{
+  width: 35%;
+  height: 30px;
+  margin-top: -1px;
+  font-size: 15px;
+  background-color:white;
+  margin-left: 20px;
+color:black;
+  
+}
+.but:hover{
+  width: 35%;
+  height: 30px;
+  margin-top: -1px;
+  font-size: 15px;
+  background-color:violet;
+  color: white;
+  
+}
+.h4{
+margin-top: -22px;
+margin-left: 150px;
+color: white;
+}
+.fa-play{
+margin-left: -14px;
+}
+
+.row2:hover{
+border: 1px solid white;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+z-index: 1;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; ;
+transform: scale(1.20);
+cursor: pointe
+}
+.colum2{
+opacity: 0;
+
+
+}
+.row2:hover .colum2{
+
+opacity: 100;
+
+} 
+h3{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;  
+ color: white;
+
+}
+
+i{
+  background-color: transparent;
+ 
+}
+.watch{
+  background-color: transparent;
+}
+
+
+/*----------------logo in circle------------------------------*/
+
+.vicky{
+          
+  display: grid;
+   grid-template-rows: repeat(1,100px);
+   grid-template-columns: repeat(9,1fr);
+   gap: 10px;
+   background-color: #0f0617;
+  
+}
+.priya{
+ 
+   height: 100px;
+   width: 80%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 45px;
+}
+.hero{
+   width: 100%;
+   height: 100px;
+   border-radius: 9000px;
+   background-color: #0f0617;
+}
+h3{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.beauty{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   color: white;
+}
+.channels{
+  margin-top: 3%;
+  /* height: 300px;
+  width: auto; */
+}
+
+/*--------------------Channels images-------------------------*/
+
+
+/* 
+.vicky{
+          
+  display: grid;
+   grid-template-rows: repeat(1,100px);
+   grid-template-columns: repeat(9,1fr);
+   gap: 10px;
+   background-color: #0f0617;
+  
+}
+.priya{
+ 
+   height: 100px;
+   width: 80%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 45px;
+}
+.hero{
+   width: 100%;
+   height: 100px;
+   border-radius: 9000px;
+   background-color: #0f0617;
+}
+.k{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.beauty{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+} */
+
+
+/*-----------------website about us--------------------------------*/
+
+.about{
+  margin-top: 13%;
+  
+}
+
+.ramya{
+  width: 100%;
+   height: 100px;
+
+   display: flex;
+   justify-content: space-between;
+    font-size: medium;
+}
+.d1{
+
+width: 40%;
+height: 100px;
+display: flex;    
+}
+.c1{
+width: 150px;
+height: 40px;
+margin-left: 10px;
+margin-top: 10px;
+}
+
+.sri{
+width: 60px;
+height: 40px;
+margin-left: 6px;
+margin-top: 20px;
+justify-content: space-between;
+color: white;
+
+}
+.fa-facebook{
+margin-left: 6%;
+
+}
+.fa-instagram{
+margin-left:-1%;
+
+}
+.fa-twitter{
+margin-left:-1%;
+
+}
+.fa-youtube{
+margin-left:-1%;
+
+}
+.d2{
+
+width: 40%;
+height: 100px;
+display: flex;  
+/* margin-left: 9px;  */
+/*color: white;*/
+}
+.lakshmi{
+margin-left: 10px;
+font-size: medium;
+color: white;
+
+}
+.r2{
+width: 100%;
+height: 250px;
+
+display: flex;
+justify-content: space-between;
+font-size: medium;
+}
+.para{
+color: gray;
+}
