@@ -1,0 +1,118 @@
+body{
+    background-color: #0F0617;
+}
+#container{
+    width: 360px;
+    height: 625px;
+    /* border: 1px solid red; */
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+h3{
+    margin-top: 22%;
+}
+p{
+    /* padding: 0 10% 0 10%; */
+    margin-bottom: 15%;
+}
+.signin{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    width: 90%;
+    height: 8%;
+    margin: auto;
+    /* border: 1px solid white; */
+    border-radius: 5px;
+    background-color: #0F0617;
+    margin-bottom: 13%;
+    
+}
+.signin>img{
+    cursor: pointer;
+}
+/* a{
+    color: #db286b;
+    text-align: center;
+    font-weight: bolder;
+} */
+.or{
+    width: 9%;
+    height: 5%;
+    border: 1px solid #1d1525;
+    margin-top: 50px;
+    background-color: #1d1525;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 9%;
+}
+.or>p{
+    text-align: center;
+
+}
+.or> div {
+    margin: 5px 0px 0px 0px;
+}
+input{
+    width: 90%;
+    height: 6%;
+    background-color: #0F0617;
+    border: 0;
+    /* border-bottom: red; */
+    border-style: none;
+    color: white;
+    margin-bottom: 5%;
+}
+.line{
+    width: 90%;
+    height: auto;
+    border: 1px solid #3f3845;
+    margin: auto;
+    margin-top: -17px;
+    /* margin-bottom: 10px; */
+}
+.terms{
+    /* text-align: center; */
+    margin-left: -5%;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 6%;
+    color: #9d81ff;
+}
+.forgetpassword> p{
+    text-align: center;
+    /* color: #5863ff; */
+    
+}
+span{
+    /* color: #4f5bf9; */
+    cursor: pointer;
+}
+.otp{
+    /* text-align: center; */
+    margin-bottom: 10%;
+    width: 90%;
+    height: 8%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 6%;
+}
+.sendotp{
+    color: gray;
+    font-size: large;
+    font-weight: bold;
+    /* text-align: center; */
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.login{
+    text-decoration: none;
+    color: #9d81ff;
+    cursor: pointer;
+}
