@@ -1,0 +1,352 @@
+body{
+          background-color: #0f0617;
+          gap: 1%;
+      }
+      .div1{
+          display: flex;
+          gap: 1%;
+      }
+      .h21{
+          color: white;
+          /* margin-top: -4px; */
+          font-size: 25px;
+          margin-top: -10px;
+          margin-bottom: -8px;
+      }
+      .top{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+          grid-template-rows: max-content;
+          gap: 5px;
+          /* flex-wrap: wrap; */
+          /* column-gap: 1%; */
+          width: 100%;
+          height: auto;
+          /* border: 1px solid white; */
+      }
+      video{
+          width: 70%;
+          height: 100%;
+      }
+      .t{
+          display: flex;
+      }
+      .top>div{
+          height: 70px;
+          width: auto;
+          /* border: 1px solid red; */
+          border-radius: 5px;
+      }
+      .image{
+          height: 100%;
+          border-radius: 5px;
+      }
+      .premium{
+          width: 80%;
+          height: 70px;
+          border: 1px solid #401a4c;
+          background-color: #401a4c;
+          margin-top: auto;
+      }
+      h1{
+          color: white;
+          padding-left: 3%;
+      }
+      .showname1{
+          color: white;
+          padding-left: 5%;
+          padding-top: -30%;
+      }
+      
+      /* hover */
+      
+      .t:hover {
+          /* background-color: white; */
+          z-index: 1;
+         transform: scale(1.0);
+         border: 5px solid white;
+         border-radius: 3%;
+         transition: 1s;
+         transition-duration: .5s;
+         /* color: gray; */
+      }
+      .t:hover>div{
+          color: gray;
+          font-weight: bolder;
+          background-color: red;
+      }
+      .rowwatch1{
+          
+          width: 70%;
+          height: 105%;
+          /* transform: translateX(-99%); */
+          border-top-right-radius: px;
+          border-bottom-right-radius: 2px;
+          opacity: 1;
+          /* border: 1px solid white; */
+          color: white;
+      }
+      .t:hover>.rowwatch1{
+          background-color: white;
+          transition: .5s;
+          opacity: 1;
+      }
+      .t:hover .showname1{
+          opacity: 1;
+          color: gray;
+      }
+      .t:hover .watchbtn1{
+          opacity: 1;
+      }
+      .watchbtn1{
+          height: 30%;
+          width: 25%;
+          border: 1px solid gray;
+          margin-left: 5%;
+          text-align: center;
+          border-radius: 5px;
+          margin-top: -3%;
+          opacity: 0;
+      }
+      .watchbtn1:hover{
+      
+          background-color: #8230c6;
+          /* font-weight: bold; */
+          transition: .3s;
+          color: gray;
+          opacity: 1;
+      }
+      /* .showtitle{
+          color: white;
+          padding-left: 3%;
+      } */
+      
+      /* .advartise{
+          width: 101px;
+          height: 100px;
+          border: 1px solid white;
+      
+      } */
+      
+      /* ------------------------under div row------------ */
+      
+      
+      
+      .btn:hover{
+          background-color: white;
+          color: black;
+      }
+      
+      #black>div,h4{
+          margin-left: 2%;
+      }
+      #black{
+          
+          background-color: #0f0617;
+          margin-top: -2%;
+          
+      }
+      h4{
+          padding-top: 3%;
+          padding-bottom: 1%;
+          color: white;
+      }
+      #black>div{
+          width: max-content;
+          display: grid;
+          grid-template-columns: repeat(11, 1fr);
+          grid-template-rows: repeat(1,300px);
+          gap: 1%;
+          z-index: 0;
+          transition: 0.2s all;
+      }
+      #black>div div{
+          cursor: pointer;
+      }
+      .row3{
+          display: grid;
+          grid-template-columns: repeat(15,1fr);
+          grid-template-rows: auto;
+      }
+      .row2>div{
+          /* border: 5px solid; */
+          border-radius: 5%
+      }
+      .row2img{
+          position: relative;
+          height: 100%;
+          width: 100%;
+          border-radius: 1.5%
+      }
+      /* #black>div div:hover{ */
+          /* z-index: 1;
+          transform: scale(1.2);
+          border: 8px solid white;
+          border-radius: 3%; */
+          
+      /* } */
+      .box1:hover{
+          background-color: white;
+          z-index: 1;
+         transform: scale(1.3);
+         border: 6px solid white;
+         border-radius: 3%;
+         transition: 1s;
+         transition-duration: .5s;
+      }
+      /* .box1:hover>.row2img{
+          
+         height: 80%;
+         width: 100%;
+      } */
+      h2{
+              
+          top: 72%;
+          margin-left: 15%;
+          /* margin-top: 50px; */
+          position: absolute; 
+          color: white;
+          /* text-transform: uppercase; */
+      }
+      .carousel-item>.btn{
+          top: 83%;
+          margin-left: 15%;
+          width: 8%;
+          height: 7%;
+          border: 1px solid white;
+          position: absolute;
+          font-weight: bold;
+          color: white;
+          
+      }
+      .rowwatch{
+          width: auto;
+          height: 21%;
+          transform: translateY(-99%);
+          border-radius: 3px;
+          
+          opacity: 0;
+          border: 2px solid white;
+          color: white;
+      }
+      .box1:hover>.rowwatch{
+          background-color: white;
+          transition: .5s;
+          opacity: 1;
+      }
+      .watchbtn{
+          border: 1px solid gray;
+          width: 45%;
+          color: rgb(91, 90, 90);
+          font-size: 80%;
+          margin-top: 11%;
+          padding: 3px 6px 3px 20px;
+          border-radius: 5px;
+          
+          /* font-weight: bold; */
+      }
+      .watchbtn:hover{
+      
+          background-color: #8230c6;
+          /* font-weight: bold; */
+          transition: .3s;
+          color: white;
+      }
+      .shownames{
+          color: gray;
+          margin-top: 1%;
+          margin-bottom: -6%;
+          font-size: 60%;
+          font-weight: bold;
+      }
+      .carousel-inner{
+          background-color: #0F0617;
+      }
+      .adjustheigthwigth{
+                  width: 80%;
+                  height: auto;
+                  margin: auto;
+      
+      }
+      
+      
+      
+      body{
+          background-color: #0F0617;
+          padding-bottom: 50px;
+      }
+      #carouselExampleIndicators{
+         cursor: pointer;
+         background-color: #0F0617;
+      }
+      #yardiv{
+              border: 0px solid rgb(204, 66, 66);
+              height: 400px;
+              width: 70%;
+              margin: auto;
+              position: relative;
+              overflow: visible;
+              z-index: 1;
+      }
+      #image2{
+          width: 100%;
+          height:100%;
+          overflow: visible;
+      }
+      #divInner{
+          height: 30px;
+          border: 0px yellow solid;
+          position: absolute;
+          margin-top: -70px;
+          width: 280px;
+          display: flex;
+          justify-content: center;
+          gap: 9px;
+          margin-left: 1%;
+          background-color: transparent;
+          
+      }
+      #yar{
+          position: absolute;
+          color: white;
+          margin-top: -40px;
+          margin-left: 3%;
+          background-color: transparent;
+      }
+      #play{
+          background-color: black;
+          color: white;
+          border: 1px white solid;
+          font-size: 12px;
+          font-weight: bold;
+          width: 100px;
+          height: 37px;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-top: -5px;
+          align-items: center;
+          text-align: center;
+      }
+      #play:hover{
+          background-color: white;
+          color: black;
+      }
+      
+      #buyplan2{
+          background-color:#8230c6;
+          color: white;
+          border: 0px white solid;
+          font-size: 12px;
+          font-weight: bold;
+          width: 120px;
+          height: 37px;
+          border-radius: 5px;
+          box-sizing: border-box;
+          margin-top: -5px;
+          align-items: center;
+          text-align: center;
+      }
+      #buyplan2:hover{
+          background-color: #550894;
+      }
+      

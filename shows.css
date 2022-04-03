@@ -1,0 +1,344 @@
+
+body{
+    background-color: #0F0617;
+    padding-bottom: 50px;
+}
+#carouselExampleIndicators{
+   cursor: pointer;
+   background-color: #0F0617;
+}
+#yardiv{
+        border: 0px solid rgb(204, 66, 66);
+        height: 400px;
+        width: 70%;
+        margin: auto;
+        position: relative;
+        overflow: visible;
+        z-index: 1;
+}
+#image2{
+    width: 100%;
+    height:100%;
+    overflow: visible;
+}
+#divInner{
+    height: 30px;
+    border: 0px yellow solid;
+    position: absolute;
+    margin-top: -70px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin-left: 1%;
+    background-color: transparent;
+    
+}
+#yar{
+    position: absolute;
+    color: white;
+    margin-top: -40px;
+    margin-left: 3%;
+    background-color: transparent;
+}
+#play{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: -5px;
+    align-items: center;
+    text-align: center;
+}
+#play:hover{
+    background-color: white;
+    color: black;
+}
+
+#buyplan2{
+    background-color:#8230c6;
+    color: white;
+    border: 0px white solid;
+    font-size: 12px;
+    font-weight: bold;
+    width: 120px;
+    height: 37px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: -5px;
+    align-items: center;
+    text-align: center;
+}
+#buyplan2:hover{
+    background-color: #550894;
+}
+
+i{
+    padding-right: 4%;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#black>div,h4{
+    margin-left: 2%;
+}
+#black{
+    background-color: #0F0617;
+    border: #550894 0px solid;
+}
+h4{
+    padding-top: 3%;
+    padding-bottom: 1%;
+    color: white;
+}
+#black>div{
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1,300px);
+    gap: 1%;
+    z-index: 0;
+    transition: 0.2s all;
+}
+#black>div div{
+    cursor: pointer;
+}
+.row2{
+    display: flex;
+}
+.row2>div{
+    /* border: 5px solid; */
+    border-radius: 5%
+}
+.row2img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5%
+}
+.box1:hover{
+    background-color: white;
+    z-index: 1;
+   transform: scale(1.2);
+   border: 7px solid white;
+   border-radius: 3%;
+   transition: 1s;
+   transition-duration: .5s;
+   box-sizing: border-box;
+   height: 300px;
+   width: 200px;
+}
+#content{
+    font-size: 35px;
+    color: #f0ecf3;
+    margin-top: 45%;
+    padding: 5px 5px 5px 5px;
+}
+/* .box1:hover>.row2img{
+    
+   height: 80%;
+   width: 100%;
+} */
+h2{
+        
+    top: 72%;
+    margin-left: 15%;
+    /* margin-top: 50px; */
+    position: absolute; 
+    color: white;
+    /* text-transform: uppercase; */
+}
+.carousel-item>.btn{
+    top: 83%;
+    margin-left: 15%;
+    width: 8%;
+    height: 7%;
+    border: 1px solid white;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    
+}
+.rowwatch{
+    width: auto;
+    height: 21%;
+    transform: translateY(-99%);
+    border-radius: 3px;
+    /* padding-left: 3%; */
+    opacity: 0;
+    border: 2px solid white;
+    color: white;
+}
+.box1:hover>.rowwatch{
+    background-color: white;
+    transition: .5s;
+    opacity: 1;
+}
+.watchbtn{
+    border: 1px solid rgb(180, 176, 176);
+    width: 30%;
+    color: rgb(165, 158, 158);
+    font-size: 80%;
+    margin-top: 15%;
+    border-radius: 3px;
+    font-size: 10px;
+    display:inline-flex;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 4%;
+    background-color: transparent;
+    /* font-weight: bold; */
+}
+.watchbtn:hover{
+
+    background-color: #8230c6;
+    /* font-weight: bold; */
+    transition: .3s;
+    color: white;
+}
+.watchbtn:hover #play2{
+    color: #070607;
+}
+.shownames{
+    color: gray;
+    margin-top: 3%;
+    margin-bottom: -10%;
+    font-size: 60%;
+    font-weight: bold;
+    background-color: white;
+}
+.sharebtn{
+    border: 0PX gray solid;
+    background-color: white;
+    font-size: 10PX;
+    color: gray;
+    font-weight: bold;
+}
+.sharebtn:hover{
+    color: #7817c7;
+}
+
+
+.bi:hover{
+cursor: pointer;
+}
+#submenu,#submenu1{
+    display: none;
+    border: #550894 0px solid;
+}
+/* #submenu1{
+    height: 350px;
+} */
+/* .hg>i:hover #submenu{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background-color: #070607;
+    color: white;
+    height: 450px;
+    width: 130px;
+    z-index: 2;
+    padding: 40px 0px 0px 0px;
+} */
+#submenu li:hover{
+ color: #9d50db;
+}
+.bi:hover #submenu{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background-color: #070607;
+    color: white;
+    height: 450px;
+    width: 130px;
+    z-index: 2;
+    padding: 40px 0px 0px 0px;
+    
+}
+#menu:hover #submenu{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background-color: #070607;
+    color: white;
+    margin-top: 10px;
+    height: 450px;
+    width: 300px;
+    z-index: 2;
+    padding: 5px 0px 0px 0px;
+   margin-left: -250px;
+   border: #550894 0px solid;
+}
+#se:hover>div{
+    
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    background-color: #070607;
+    color: white;
+    margin-top: 10px;
+    height: 300px;
+    width: 200px;
+    z-index: 2;
+    padding: 5px 0px 0px 0px;
+   margin-left: -50px;
+   border: #550894 0px solid;
+}
+ li{
+    color: rgb(212, 206, 206);
+    list-style: none;
+    margin-top: 15%;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    align-items: left;
+    font-family: monospace;
+}
+li a{
+    text-decoration: none;
+    color: rgb(212, 206, 206);
+}
+li a:hover{
+    color: #7817c7;
+}
+
+.fas:hover{
+    color: white;
+}
+.zee{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    border: #550894 0px solid;
+    height: 45px;
+    margin-top: 2%;
+}
+.zee1{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    color: #9d50db;
+    border: #550894 0px solid;
+    padding: 10px; 
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
