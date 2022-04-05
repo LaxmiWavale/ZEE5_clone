@@ -1,5 +1,6 @@
 body{
     background-color: #0F0617;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #container{
     width: 360px;
@@ -12,11 +13,15 @@ body{
 h3{
     margin-top: 19%;
 }
-p{
+.signinp{
     padding: 0 10% 0 10%;
     margin-bottom: 15%;
+    color: rgba(255, 255, 255, 0.692);
+    font-size: 17px;
 }
 .signin{
+    display: flex;
+    justify-content: center;
     margin-bottom: 10%;
     width: 90%;
     height: 8%;
@@ -28,10 +33,18 @@ p{
     cursor: pointer;
     
 }
-a{
+/* .img{ */
+    /* background-color: #db286b; */
+/* } */
+.a{
     color: #db286b;
-    /* text-align: center; */
     font-weight: bolder;
+    margin-left: 1%;
+    margin-top: 14px;
+    width: 50px;
+    height: 25px;
+    font-size: 17px;
+    
 }
 .or{
     width: 9%;

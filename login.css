@@ -1,5 +1,6 @@
 body{
     background-color: #0F0617;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #container{
     width: 360px;
@@ -12,9 +13,11 @@ body{
 h3{
     margin-top: 22%;
 }
-p{
+.loginp{
     /* padding: 0 10% 0 10%; */
     margin-bottom: 15%;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.753);
 }
 .signin{
     display: flex;
